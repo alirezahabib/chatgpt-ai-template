@@ -165,7 +165,7 @@ export function SidebarLinks(props: SidebarLinksProps) {
               </AccordionItem>
               <Link
                 isExternal
-                href="https://horizon-ui.com/ai-template"
+                href="https://vsharif.me"
                 mt="6px"
               >
                 <Badge
@@ -284,7 +284,7 @@ export function SidebarLinks(props: SidebarLinksProps) {
                       </Text>
                       <Link
                         isExternal
-                        href="https://horizon-ui.com/ai-template"
+                        href="https://vsharif.me"
                       >
                         <Badge
                           display={{ base: 'flex', lg: 'none', xl: 'flex' }}

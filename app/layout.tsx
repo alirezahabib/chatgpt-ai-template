@@ -29,7 +29,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   }, [apiKey]);
 
   return (
-    <html lang="en">
+    <html lang="fa">
       <body id={'root'}>
         <AppWrappers>
           {/* <ChakraProvider theme={theme}> */}
@@ -58,7 +58,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                     <Navbar
                       setApiKey={setApiKey}
                       onOpen={onOpen}
-                      logoText={'Horizon UI Dashboard PRO'}
+                      logoText={'هوش مصنوعی واژه‌شریف'}
                       brandText={getActiveRoute(routes, pathname)}
                       secondary={getActiveNavbar(routes, pathname)}
                     />

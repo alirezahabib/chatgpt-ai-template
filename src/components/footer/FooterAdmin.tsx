@@ -36,8 +36,8 @@ export default function Footer() {
       >
         {' '}
         &copy; {new Date().getFullYear()}
-        <Text as="span" fontWeight="500" ms="4px">
-          Horizon UI AI Template. All Rights Reserved.
+        <Text as="span" dir="rtl" fontWeight="500" ms="4px">
+          تمامی حقوق برای واژه‌شریف (vsharif.me) محفوض است.
         </Text>
       </Text>
       <List display="flex">

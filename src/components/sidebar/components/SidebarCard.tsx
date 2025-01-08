@@ -53,15 +53,15 @@ export default function SidebarDocs() {
           lineHeight="150%"
           textAlign="center"
           mb="14px"
+          dir="rtl"
         >
-          Go unlimited with PRO
+          با نسخه‌ی پلاس بی‌نهایت استفاده کنید!
         </Text>
-        <Text fontSize="14px" color={'white'} mb="14px" textAlign="center">
-          Get your AI Project to another level and start doing more with Horizon
-          AI Template PRO!
+        <Text fontSize="14px" color={'white'} mb="14px" textAlign="center" dir="rtl">
+          با خدمات هوش مصنوعی واژه‌شریف (vsharif) کسب و کار خود را رشد دهید.
         </Text>
       </Flex>
-      <Link href="https://horizon-ui.com/ai-template" isExternal>
+      <Link href="https://vsharif.me/contact" isExternal>
         <Button
           bg="whiteAlpha.300"
           _hover={{ bg: 'whiteAlpha.200' }}
@@ -73,8 +73,9 @@ export default function SidebarDocs() {
           minW="185px"
           mx="auto"
           borderRadius="45px"
+          dir="rtl"
         >
-          Get started with PRO
+          خرید نسخه پلاس
         </Button>
       </Link>
     </Flex>

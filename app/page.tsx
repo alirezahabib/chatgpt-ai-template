@@ -63,7 +63,7 @@ export default function Chat(props: { apiKeyApp: string }) {
     const maxCodeLength = model === 'gpt-4o' ? 700 : 700;
 
     if (!apiKey?.includes('sk-')) {
-      alert('Please enter an API key.');
+      alert('لطفا وارد حساب کاربری خود شوید.');
       return;
     }
 
@@ -260,12 +260,12 @@ export default function Chat(props: { apiKeyApp: string }) {
                 _hover={{ border: '0px solid', bg: 'none' }}
                 _focus={{ border: '0px solid', bg: 'none' }}
               >
-                <Box flex="1" textAlign="left">
+                <AccordionIcon color={gray} />
+                <Box flex="1" textAlign="right">
                   <Text color={gray} fontWeight="500" fontSize="sm">
-                    No plugins added
+                    هیچ افزونه‌ای اضافه نشده
                   </Text>
                 </Box>
-                <AccordionIcon color={gray} />
               </AccordionButton>
               <AccordionPanel mx="auto" w="max-content" p="0px 0px 10px 0px">
                 <Text
@@ -371,10 +371,11 @@ export default function Chat(props: { apiKeyApp: string }) {
             me="10px"
             fontSize="sm"
             fontWeight="500"
+            dir="rtl"
             _focus={{ borderColor: 'none' }}
             color={inputColor}
             _placeholder={placeholderColor}
-            placeholder="Type your message here..."
+            placeholder="گفت و گوی خود را شروع کنید..."
             onChange={handleChange}
           />
           <Button
@@ -397,7 +398,7 @@ export default function Chat(props: { apiKeyApp: string }) {
             onClick={handleTranslate}
             isLoading={loading ? true : false}
           >
-            Submit
+            شروع
           </Button>
         </Flex>
 
@@ -406,19 +407,19 @@ export default function Chat(props: { apiKeyApp: string }) {
           mt="20px"
           direction={{ base: 'column', md: 'row' }}
           alignItems="center"
+          dir="rtl"
         >
-          <Text fontSize="xs" textAlign="center" color={gray}>
-            Free Research Preview. ChatGPT may produce inaccurate information
-            about people, places, or facts.
+          <Text fontSize="xs" textAlign="center" dir="rtl" color={gray}>
+            نسخه‌ی آزمایشی. هوش مصنوعی واژه‌شریف ممکن است نتایج درستی تولید نکند. 
           </Text>
-          <Link href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes">
+          <Link href="https://vsharif.me">
             <Text
               fontSize="xs"
               color={textColor}
               fontWeight="500"
               textDecoration="underline"
             >
-              ChatGPT May 12 Version
+              vsharif.me 
             </Text>
           </Link>
         </Flex>

@@ -100,7 +100,7 @@ export default function HeaderLinks(props: {
             <Link
               isExternal
               w="100%"
-              href="https://horizon-ui.com/ai-template/"
+              href="https://vsharif.me/"
             >
               <Button
                 variant="primary"
@@ -214,7 +214,7 @@ export default function HeaderLinks(props: {
               fontWeight="700"
               color={textColor}
             >
-              👋&nbsp; Hey, Adela
+              👋&nbsp; سلام
             </Text>
           </Flex>
           <Flex flexDirection="column" p="10px">
@@ -227,7 +227,7 @@ export default function HeaderLinks(props: {
                 px="14px"
               >
                 <Text fontWeight="500" fontSize="sm">
-                  Profile Settings
+                  تنظیمات حساب کاربری
                 </Text>
               </MenuItem>
             </NavLink>
@@ -239,7 +239,7 @@ export default function HeaderLinks(props: {
               px="14px"
             >
               <Text fontWeight="500" fontSize="sm">
-                Newsletter Settings
+                اعلان‌ها
               </Text>
             </MenuItem>
             <MenuItem
@@ -250,7 +250,7 @@ export default function HeaderLinks(props: {
               px="14px"
             >
               <Text fontWeight="500" fontSize="sm">
-                Log out
+                خروج
               </Text>
             </MenuItem>
           </Flex>

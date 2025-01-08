@@ -84,7 +84,7 @@ function SidebarContent(props: SidebarContent) {
       >
         <NextAvatar h="34px" w="34px" src={avatar4} me="10px" />
         <Text color={textColor} fontSize="xs" fontWeight="600" me="10px">
-          Adela Parkson
+          کاربر مهمان
         </Text>
         <Menu>
           <MenuButton
@@ -141,12 +141,12 @@ function SidebarContent(props: SidebarContent) {
                   fontSize="sm"
                   opacity={'0.4'}
                 >
-                  Profile Settings
+                  تنظیمات حساب کاربری
                 </Text>
                 <Link
                   ms="auto"
                   isExternal
-                  href="https://horizon-ui.com/ai-template"
+                  href="https://vsharif.me"
                 >
                   <Badge
                     display={{ base: 'flex', lg: 'none', xl: 'flex' }}
@@ -178,7 +178,7 @@ function SidebarContent(props: SidebarContent) {
                 <Link
                   ms="auto"
                   isExternal
-                  href="https://horizon-ui.com/ai-template"
+                  href="https://vsharif.me"
                 >
                   <Badge
                     display={{ base: 'flex', lg: 'none', xl: 'flex' }}
@@ -210,7 +210,7 @@ function SidebarContent(props: SidebarContent) {
                 <Link
                   ms="auto"
                   isExternal
-                  href="https://horizon-ui.com/ai-template"
+                  href="https://vsharif.me"
                 >
                   <Badge
                     display={{ base: 'flex', lg: 'none', xl: 'flex' }}
@@ -242,7 +242,7 @@ function SidebarContent(props: SidebarContent) {
                 <Link
                   ms="auto"
                   isExternal
-                  href="https://horizon-ui.com/ai-template"
+                  href="https://vsharif.me"
                 >
                   <Badge
                     display={{ base: 'flex', lg: 'none', xl: 'flex' }}

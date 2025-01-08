@@ -63,7 +63,7 @@ function APIModal(props: { setApiKey: any; sidebar?: boolean }) {
           mt="8px"
           minH="40px"
         >
-          Set API Key
+          ورود به حساب کاربری
         </Button>
       ) : (
         <Button
